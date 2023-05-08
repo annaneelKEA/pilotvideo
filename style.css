@@ -1,17 +1,46 @@
-/* Hovedmenu**************/
+main {
+  max-width: 1200px;
+  margin: 0 auto 0 auto;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  text-align: center;
+}
+
+nav li {
+  display: inline-block;
+  margin: 0 10px;
+}
+
+nav a {
+  color: black;
+  text-decoration: none;
+  text-decoration: none;
+  font-size: 16px;
+  justify-content: space-between;
+  text-align: center;
+  text-decoration: none;
+  font-family: "zuume-cut", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+*/ main {
+  max-width: 1200px;
+  margin: 0 auto 0 auto;
+}
 header {
   position: sticky;
   top: 0;
   padding: 1rem 2rem;
   display: flex;
   margin-bottom: 10px;
-  background-color: whitesmoke;
-  padding-top: 3px;
-  padding-bottom: 5px;
 }
 header nav ul {
   display: flex;
-  justify-content: center;
+  justify-content: right;
   align-items: center;
   list-style: none;
   margin: 0;
@@ -30,17 +59,12 @@ a {
   font-size: 16px;
   justify-content: space-between;
   text-align: center;
-  text-decoration: none;
-  font-family: "zuume-cut", sans-serif;
-  font-weight: 700;
-  font-style: normal;
-}
-a.active {
-  color: white;
+  font-family: "Lilita One", cursive;
+  font-size: 65px;
 }
 
-ul {
-  position: center;
+a.active {
+  color: white;
 }
 body {
   background-color: white;
@@ -69,25 +93,25 @@ p {
   font-style: normal;
   color: black;
 }
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
 img {
-  display: grid;
-  margin-left: auto;
-  margin-right: auto;
+  vertical-align: middle;
   width: 100%;
-  padding: 2%;
+  height: auto;
 }
-/* Billeder ******** */
-.nærshot {
-  width: 80%;
-  height: 100%;
+video {
+  aspect-ratio: 16/9;
+  width: 94%;
 }
-.shot {
-  width: 180%;
+iframe {
+  aspect-ratio: 16/9;
+  width: 100%;
 }
-.ung {
-  width: 180%;
-  top: 30%;
-}
-.skov {
-  width: 180%;
+.streg {
+  border-top: 2px solid black;
+  margin-bottom: 5px;
 }
